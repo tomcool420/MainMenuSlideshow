@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		875A8234126FFBA400ECADC2 /* thePlugin */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 875A823D126FFBC200ECADC2 /* Build configuration list for PBXAggregateTarget "thePlugin" */;
+			buildPhases = (
+				875A8233126FFBA400ECADC2 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = thePlugin;
+			productName = thePlugin;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		875A824D126FFF1F00ECADC2 /* HWAppliance.mm in Sources */ = {isa = PBXBuildFile; fileRef = 875A824A126FFF1F00ECADC2 /* HWAppliance.mm */; };
+		875A824E126FFF1F00ECADC2 /* HWBasicMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 875A824C126FFF1F00ECADC2 /* HWBasicMenu.m */; };
+		875A8424126FFF5300ECADC2 /* BackRow in Resources */ = {isa = PBXBuildFile; fileRef = 875A8253126FFF5300ECADC2 /* BackRow */; };
+		875A8426126FFF6500ECADC2 /* build.sh in Resources */ = {isa = PBXBuildFile; fileRef = 875A8425126FFF6500ECADC2 /* build.sh */; };
+		875A8428126FFF6D00ECADC2 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 875A8427126FFF6D00ECADC2 /* Makefile */; };
+		8D5B49B0048680CD000E48DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C167DFE841241C02AAC07 /* InfoPlist.strings */; };
+		8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */; };
+		DD0498241275D12400087D45 /* SMSlideshow.m in Sources */ = {isa = PBXBuildFile; fileRef = DD0498231275D12400087D45 /* SMSlideshow.m */; };
+		DD049952127615FE00087D45 /* SMSlideshowController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD049951127615FE00087D45 /* SMSlideshowController.m */; };
+		DDA301501274C5FA00B0AE9C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DDA3014F1274C5FA00B0AE9C /* Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C1672FE841209C02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		089C167EFE841241C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		089C167FFE841241C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		32DBCF630370AF2F00C91783 /* atvTwo_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = atvTwo_Prefix.pch; sourceTree = "<group>"; };
+		875A8249126FFF1F00ECADC2 /* BackRowExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BackRowExtras.h; path = Classes/BackRowExtras.h; sourceTree = "<group>"; };
+		875A824A126FFF1F00ECADC2 /* HWAppliance.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = HWAppliance.mm; path = Classes/HWAppliance.mm; sourceTree = "<group>"; };
+		875A824B126FFF1F00ECADC2 /* HWBasicMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HWBasicMenu.h; path = Classes/HWBasicMenu.h; sourceTree = "<group>"; };
+		875A824C126FFF1F00ECADC2 /* HWBasicMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HWBasicMenu.m; path = Classes/HWBasicMenu.m; sourceTree = "<group>"; };
+		875A8253126FFF5300ECADC2 /* BackRow */ = {isa = PBXFileReference; lastKnownFileType = folder; name = BackRow; path = ../ATV2Includes/BackRow; sourceTree = "<group>"; };
+		875A8425126FFF6500ECADC2 /* build.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = build.sh; sourceTree = "<group>"; };
+		875A8427126FFF6D00ECADC2 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		8D5B49B6048680CD000E48DA /* atvTwo.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = atvTwo.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D5B49B7048680CD000E48DA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2F7E65807B2D6F200F64583 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		DD0498221275D12400087D45 /* SMSlideshow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMSlideshow.h; sourceTree = "<group>"; };
+		DD0498231275D12400087D45 /* SMSlideshow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMSlideshow.m; sourceTree = "<group>"; };
+		DD0498261275D13300087D45 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		DD049950127615FE00087D45 /* SMSlideshowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMSlideshowController.h; sourceTree = "<group>"; };
+		DD049951127615FE00087D45 /* SMSlideshowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMSlideshowController.m; sourceTree = "<group>"; };
+		DD145CF112B4696700FA8984 /* BRMenuItem_SMF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRMenuItem_SMF.h; sourceTree = "<group>"; };
+		DD145D1612B4696700FA8984 /* NSTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSTask.h; sourceTree = "<group>"; };
+		DD145D1712B4696700FA8984 /* SMFBaseAsset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMFBaseAsset.h; sourceTree = "<group>"; };
+		DD145D1812B4696700FA8984 /* SMFCenteredMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMFCenteredMenuController.h; sourceTree = "<group>"; };
+		DD145D1912B4696700FA8984 /* SMFClockController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMFClockController.h; sourceTree = "<group>"; };
+		DD145D1A12B4696700FA8984 /* SMFColorSelectionMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMFColorSelectionMenu.h; sourceTree = "<group>"; };
+		DD145D1B12B4696700FA8984 /* SMFCommonTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMFCommonTools.h; sourceTree = "<group>"; };
+		DD145D1C12B4696700FA8984 /* SMFController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMFController.h; sourceTree = "<group>"; };
+		DD145D1D12B4696700FA8984 /* SMFDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMFDefines.h; sourceTree = "<group>"; };
+		DD145D1E12B4696700FA8984 /* SMFEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMFEvent.h; sourceTree = "<group>"; };
+		DD145D1F12B4696700FA8984 /* SMFEventConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMFEventConfiguration.h; sourceTree = "<group>"; };
+		DD145D2012B4696700FA8984 /* SMFEventManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMFEventManager.h; sourceTree = "<group>"; };
+		DD145D2112B4696700FA8984 /* SMFFolderBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMFFolderBrowser.h; sourceTree = "<group>"; };
+		DD145D2212B4696700FA8984 /* SMFFolderDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMFFolderDelegate.h; sourceTree = "<group>"; };
+		DD145D2412B4696700FA8984 /* SMFInvocationCenteredMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMFInvocationCenteredMenuController.h; sourceTree = "<group>"; };
+		DD145D2512B4696700FA8984 /* SMFMediaMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMFMediaMenuController.h; sourceTree = "<group>"; };
+		DD145D2612B4696700FA8984 /* SMFMediaPreview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMFMediaPreview.h; sourceTree = "<group>"; };
+		DD145D2712B4696700FA8984 /* SMFMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMFMenuController.h; sourceTree = "<group>"; };
+		DD145D2812B4696700FA8984 /* SMFMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMFMenuItem.h; sourceTree = "<group>"; };
+		DD145D2912B4696700FA8984 /* SMFMovieAsset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMFMovieAsset.h; sourceTree = "<group>"; };
+		DD145D2A12B4696700FA8984 /* SMFPasscodeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMFPasscodeController.h; sourceTree = "<group>"; };
+		DD145D2B12B4696700FA8984 /* SMFPhotoMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMFPhotoMethods.h; sourceTree = "<group>"; };
+		DD145D2D12B4696700FA8984 /* SMFPopup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMFPopup.h; sourceTree = "<group>"; };
+		DD145D2E12B4696700FA8984 /* SMFPreferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMFPreferences.h; sourceTree = "<group>"; };
+		DD145D2F12B4696700FA8984 /* SMFProgressBarControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMFProgressBarControl.h; sourceTree = "<group>"; };
+		DD145D3012B4696700FA8984 /* SMFProgressBarMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMFProgressBarMenuItem.h; sourceTree = "<group>"; };
+		DD145D3112B4696700FA8984 /* SMFQueryMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMFQueryMenu.h; sourceTree = "<group>"; };
+		DD145D3212B4696700FA8984 /* SMFramework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMFramework.h; sourceTree = "<group>"; };
+		DD145D3312B4696700FA8984 /* SMFScreenCapture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMFScreenCapture.h; sourceTree = "<group>"; };
+		DD145D3512B4696700FA8984 /* SMFThemeInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMFThemeInfo.h; sourceTree = "<group>"; };
+		DD145D3712B4696700FA8984 /* SynthesizeSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SynthesizeSingleton.h; sourceTree = "<group>"; };
+		DDA3014F1274C5FA00B0AE9C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Resources/Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D5B49B3048680CD000E48DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089C166AFE841209C02AAC07 /* atvTwo */ = {
+			isa = PBXGroup;
+			children = (
+				DD145CF012B4696700FA8984 /* SMFramework */,
+				DD0498221275D12400087D45 /* SMSlideshow.h */,
+				DD0498231275D12400087D45 /* SMSlideshow.m */,
+				DD049950127615FE00087D45 /* SMSlideshowController.h */,
+				DD049951127615FE00087D45 /* SMSlideshowController.m */,
+				875A8427126FFF6D00ECADC2 /* Makefile */,
+				875A8425126FFF6500ECADC2 /* build.sh */,
+				875A8253126FFF5300ECADC2 /* BackRow */,
+				08FB77AFFE84173DC02AAC07 /* Classes */,
+				32C88E010371C26100C91783 /* Other Sources */,
+				089C167CFE841241C02AAC07 /* Resources */,
+				089C1671FE841209C02AAC07 /* Frameworks and Libraries */,
+				19C28FB8FE9D52D311CA2CBB /* Products */,
+			);
+			name = atvTwo;
+			sourceTree = "<group>";
+		};
+		089C1671FE841209C02AAC07 /* Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */,
+				1058C7AEFEA557BF11CA2CBB /* Other Frameworks */,
+			);
+			name = "Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		089C167CFE841241C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DDA3014F1274C5FA00B0AE9C /* Info.plist */,
+				8D5B49B7048680CD000E48DA /* Info.plist */,
+				089C167DFE841241C02AAC07 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		08FB77AFFE84173DC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				875A8249126FFF1F00ECADC2 /* BackRowExtras.h */,
+				875A824A126FFF1F00ECADC2 /* HWAppliance.mm */,
+				875A824B126FFF1F00ECADC2 /* HWBasicMenu.h */,
+				875A824C126FFF1F00ECADC2 /* HWBasicMenu.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7AEFEA557BF11CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				089C167FFE841241C02AAC07 /* AppKit.framework */,
+				D2F7E65807B2D6F200F64583 /* CoreData.framework */,
+				089C1672FE841209C02AAC07 /* Foundation.framework */,
+				DD0498261275D13300087D45 /* QuartzCore.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FB8FE9D52D311CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D5B49B6048680CD000E48DA /* atvTwo.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32C88E010371C26100C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32DBCF630370AF2F00C91783 /* atvTwo_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		DD145CF012B4696700FA8984 /* SMFramework */ = {
+			isa = PBXGroup;
+			children = (
+				DD145CF112B4696700FA8984 /* BRMenuItem_SMF.h */,
+				DD145D1612B4696700FA8984 /* NSTask.h */,
+				DD145D1712B4696700FA8984 /* SMFBaseAsset.h */,
+				DD145D1812B4696700FA8984 /* SMFCenteredMenuController.h */,
+				DD145D1912B4696700FA8984 /* SMFClockController.h */,
+				DD145D1A12B4696700FA8984 /* SMFColorSelectionMenu.h */,
+				DD145D1B12B4696700FA8984 /* SMFCommonTools.h */,
+				DD145D1C12B4696700FA8984 /* SMFController.h */,
+				DD145D1D12B4696700FA8984 /* SMFDefines.h */,
+				DD145D1E12B4696700FA8984 /* SMFEvent.h */,
+				DD145D1F12B4696700FA8984 /* SMFEventConfiguration.h */,
+				DD145D2012B4696700FA8984 /* SMFEventManager.h */,
+				DD145D2112B4696700FA8984 /* SMFFolderBrowser.h */,
+				DD145D2212B4696700FA8984 /* SMFFolderDelegate.h */,
+				DD145D2412B4696700FA8984 /* SMFInvocationCenteredMenuController.h */,
+				DD145D2512B4696700FA8984 /* SMFMediaMenuController.h */,
+				DD145D2612B4696700FA8984 /* SMFMediaPreview.h */,
+				DD145D2712B4696700FA8984 /* SMFMenuController.h */,
+				DD145D2812B4696700FA8984 /* SMFMenuItem.h */,
+				DD145D2912B4696700FA8984 /* SMFMovieAsset.h */,
+				DD145D2A12B4696700FA8984 /* SMFPasscodeController.h */,
+				DD145D2B12B4696700FA8984 /* SMFPhotoMethods.h */,
+				DD145D2D12B4696700FA8984 /* SMFPopup.h */,
+				DD145D2E12B4696700FA8984 /* SMFPreferences.h */,
+				DD145D2F12B4696700FA8984 /* SMFProgressBarControl.h */,
+				DD145D3012B4696700FA8984 /* SMFProgressBarMenuItem.h */,
+				DD145D3112B4696700FA8984 /* SMFQueryMenu.h */,
+				DD145D3212B4696700FA8984 /* SMFramework.h */,
+				DD145D3312B4696700FA8984 /* SMFScreenCapture.h */,
+				DD145D3512B4696700FA8984 /* SMFThemeInfo.h */,
+				DD145D3712B4696700FA8984 /* SynthesizeSingleton.h */,
+			);
+			name = SMFramework;
+			path = ../ATV2Includes/SMFramework;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D5B49AC048680CD000E48DA /* atvTwo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB913A08733D840010E9CD /* Build configuration list for PBXNativeTarget "atvTwo" */;
+			buildPhases = (
+				8D5B49AF048680CD000E48DA /* Resources */,
+				8D5B49B1048680CD000E48DA /* Sources */,
+				8D5B49B3048680CD000E48DA /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = atvTwo;
+			productInstallPath = "$(HOME)/Library/Bundles";
+			productName = atvTwo;
+			productReference = 8D5B49B6048680CD000E48DA /* atvTwo.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB913E08733D840010E9CD /* Build configuration list for PBXProject "MMSlideshow" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 089C166AFE841209C02AAC07 /* atvTwo */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D5B49AC048680CD000E48DA /* atvTwo */,
+				875A8234126FFBA400ECADC2 /* thePlugin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D5B49AF048680CD000E48DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D5B49B0048680CD000E48DA /* InfoPlist.strings in Resources */,
+				875A8424126FFF5300ECADC2 /* BackRow in Resources */,
+				875A8426126FFF6500ECADC2 /* build.sh in Resources */,
+				DDA301501274C5FA00B0AE9C /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		875A8233126FFBA400ECADC2 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/build.sh",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make clean package install";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D5B49B1048680CD000E48DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				875A824D126FFF1F00ECADC2 /* HWAppliance.mm in Sources */,
+				875A824E126FFF1F00ECADC2 /* HWBasicMenu.m in Sources */,
+				875A8428126FFF6D00ECADC2 /* Makefile in Sources */,
+				DD0498241275D12400087D45 /* SMSlideshow.m in Sources */,
+				DD049952127615FE00087D45 /* SMSlideshowController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C167DFE841241C02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C167EFE841241C02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB913B08733D840010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = atvTwo_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				PRODUCT_NAME = atvTwo;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		1DEB913C08733D840010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = atvTwo_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				PRODUCT_NAME = atvTwo;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		1DEB913F08733D840010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = ../ATV2Includes;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.1;
+			};
+			name = Debug;
+		};
+		1DEB914008733D840010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.1;
+			};
+			name = Release;
+		};
+		875A8235126FFBA400ECADC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = thePlugin;
+			};
+			name = Debug;
+		};
+		875A8236126FFBA400ECADC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				PRODUCT_NAME = thePlugin;
+				SDKROOT = iphoneos4.0;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB913A08733D840010E9CD /* Build configuration list for PBXNativeTarget "atvTwo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB913B08733D840010E9CD /* Debug */,
+				1DEB913C08733D840010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB913E08733D840010E9CD /* Build configuration list for PBXProject "MMSlideshow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB913F08733D840010E9CD /* Debug */,
+				1DEB914008733D840010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		875A823D126FFBC200ECADC2 /* Build configuration list for PBXAggregateTarget "thePlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				875A8235126FFBA400ECADC2 /* Debug */,
+				875A8236126FFBA400ECADC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}

@@ -1,0 +1,971 @@
+// !$*UTF8*$!
+{
+	089C1669FE841209C02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeSDKPreference = iphoneos4.1;
+		activeTarget = 875A8234126FFBA400ECADC2 /* thePlugin */;
+		addToTargets = (
+			8D5B49AC048680CD000E48DA /* atvTwo */,
+		);
+		codeSenseManager = DDE498261271288200BAC606 /* Code sense */;
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					959,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					250,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 315948101;
+			PBXWorkspaceStateSaveDate = 315948101;
+		};
+		perUserProjectItems = {
+			DD04989F1275EEE600087D45 = DD04989F1275EEE600087D45 /* PBXTextBookmark */;
+			DD145D5212B46AF700FA8984 = DD145D5212B46AF700FA8984 /* PBXTextBookmark */;
+			DD145D6312B46F5B00FA8984 = DD145D6312B46F5B00FA8984 /* PBXTextBookmark */;
+			DD2C53B612D3F9FC00AB0BDB = DD2C53B612D3F9FC00AB0BDB /* PBXTextBookmark */;
+			DD2C53B712D3F9FC00AB0BDB = DD2C53B712D3F9FC00AB0BDB /* PBXTextBookmark */;
+			DD2C53BF12D4E3E600AB0BDB = DD2C53BF12D4E3E600AB0BDB /* PBXTextBookmark */;
+			DD2C53C112D4E3E600AB0BDB = DD2C53C112D4E3E600AB0BDB /* PBXTextBookmark */;
+			DD2C58E012D4FC4E00AB0BDB /* PBXTextBookmark */ = DD2C58E012D4FC4E00AB0BDB /* PBXTextBookmark */;
+			DD2C58E312D4FC4E00AB0BDB /* PBXTextBookmark */ = DD2C58E312D4FC4E00AB0BDB /* PBXTextBookmark */;
+			DDA3012D1274C28000B0AE9C = DDA3012D1274C28000B0AE9C /* PBXTextBookmark */;
+			DDA301551274CBFE00B0AE9C = DDA301551274CBFE00B0AE9C /* PBXTextBookmark */;
+			DDA302851274E89C00B0AE9C = DDA302851274E89C00B0AE9C /* PBXTextBookmark */;
+			DDA3032B127502E500B0AE9C = DDA3032B127502E500B0AE9C /* PBXTextBookmark */;
+			DDA303DE12751D6400B0AE9C = DDA303DE12751D6400B0AE9C /* PBXTextBookmark */;
+			DDA3044312752D7B00B0AE9C = DDA3044312752D7B00B0AE9C /* PBXTextBookmark */;
+			DDA3044812752D7B00B0AE9C = DDA3044812752D7B00B0AE9C /* PBXTextBookmark */;
+			DDA3045912752E1100B0AE9C = DDA3045912752E1100B0AE9C /* PBXTextBookmark */;
+			DDA304DC12754A2D00B0AE9C = DDA304DC12754A2D00B0AE9C /* PBXTextBookmark */;
+			DDA304DD12754A2D00B0AE9C = DDA304DD12754A2D00B0AE9C /* PBXTextBookmark */;
+			DDABC5441278EEF2001F026B = DDABC5441278EEF2001F026B /* PBXTextBookmark */;
+			DDABC5471278EEF2001F026B = DDABC5471278EEF2001F026B /* PBXTextBookmark */;
+			DDABC5491278EEF2001F026B = DDABC5491278EEF2001F026B /* PBXTextBookmark */;
+			DDABC54B1278EEF2001F026B = DDABC54B1278EEF2001F026B /* PBXTextBookmark */;
+			DDB6EBA512CE34E5009B4B9E = DDB6EBA512CE34E5009B4B9E /* PBXTextBookmark */;
+			DDB6EBF612CF373A009B4B9E = DDB6EBF612CF373A009B4B9E /* PBXTextBookmark */;
+			DDB6EBF812CF373A009B4B9E = DDB6EBF812CF373A009B4B9E /* PBXTextBookmark */;
+			DDB6EBFA12CF373A009B4B9E = DDB6EBFA12CF373A009B4B9E /* PBXTextBookmark */;
+			DDB6EBFC12CF373A009B4B9E = DDB6EBFC12CF373A009B4B9E /* PBXTextBookmark */;
+			DDB6EBFE12CF373A009B4B9E = DDB6EBFE12CF373A009B4B9E /* PBXTextBookmark */;
+			DDB6EC0012CF373A009B4B9E = DDB6EC0012CF373A009B4B9E /* PBXTextBookmark */;
+			DDB6EC3112CFC053009B4B9E = DDB6EC3112CFC053009B4B9E /* PBXTextBookmark */;
+			DDDC85391274087B00192ADD = DDDC85391274087B00192ADD /* PBXTextBookmark */;
+			DDDC853B1274087B00192ADD = DDDC853B1274087B00192ADD /* PBXTextBookmark */;
+			DDE3FACF127BCDB5006A274A = DDE3FACF127BCDB5006A274A /* PlistBookmark */;
+			DDE3FAD0127BCDB5006A274A = DDE3FAD0127BCDB5006A274A /* PlistBookmark */;
+			DDE3FAD1127BCDB5006A274A = DDE3FAD1127BCDB5006A274A /* PBXTextBookmark */;
+			DDEFB11F12725EC0003FBA2C = DDEFB11F12725EC0003FBA2C /* PBXTextBookmark */;
+			DDEFB12112725EC0003FBA2C = DDEFB12112725EC0003FBA2C /* PBXTextBookmark */;
+			DDEFB12512725EC0003FBA2C = DDEFB12512725EC0003FBA2C /* PBXTextBookmark */;
+			DDEFB12712725EC0003FBA2C = DDEFB12712725EC0003FBA2C /* PBXTextBookmark */;
+			DDEFB12812725EC0003FBA2C = DDEFB12812725EC0003FBA2C /* PBXTextBookmark */;
+			DDEFB13212725EC0003FBA2C = DDEFB13212725EC0003FBA2C /* PBXTextBookmark */;
+			DDEFB13612725EC0003FBA2C = DDEFB13612725EC0003FBA2C /* PBXTextBookmark */;
+			DDEFB13812725EC0003FBA2C = DDEFB13812725EC0003FBA2C /* PBXTextBookmark */;
+			DDEFB13A12725EC0003FBA2C = DDEFB13A12725EC0003FBA2C /* PBXTextBookmark */;
+			DDF8E91D12C919C0005EC3C1 = DDF8E91D12C919C0005EC3C1 /* PBXTextBookmark */;
+		};
+		sourceControlManager = DDE498251271288200BAC606 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	32DBCF630370AF2F00C91783 /* atvTwo_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1090, 481}}";
+			sepNavSelRange = "{188, 0}";
+			sepNavVisRange = "{0, 995}";
+		};
+	};
+	875A8234126FFBA400ECADC2 /* thePlugin */ = {
+		activeExec = 0;
+	};
+	875A8249126FFF1F00ECADC2 /* BackRowExtras.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1116, 569}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 332}";
+		};
+	};
+	875A824A126FFF1F00ECADC2 /* HWAppliance.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1116, 1716}}";
+			sepNavSelRange = "{2058, 0}";
+			sepNavVisRange = "{1728, 942}";
+		};
+	};
+	875A824B126FFF1F00ECADC2 /* HWBasicMenu.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 245}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 252}";
+		};
+	};
+	875A824C126FFF1F00ECADC2 /* HWBasicMenu.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1116, 1599}}";
+			sepNavSelRange = "{26, 0}";
+			sepNavVisRange = "{2, 821}";
+		};
+	};
+	875A8425126FFF6500ECADC2 /* build.sh */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1099, 579}}";
+			sepNavSelRange = "{137, 0}";
+			sepNavVisRange = "{0, 186}";
+		};
+	};
+	875A8427126FFF6D00ECADC2 /* Makefile */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1166, 746}}";
+			sepNavSelRange = "{593, 0}";
+			sepNavVisRange = "{0, 770}";
+			sepNavWindowFrame = "{{15, 4}, {1225, 874}}";
+		};
+	};
+	8D5B49AC048680CD000E48DA /* atvTwo */ = {
+		activeExec = 0;
+	};
+	8D5B49B7048680CD000E48DA /* Info.plist */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 4}, {788, 874}}";
+		};
+	};
+	DD0498221275D12400087D45 /* SMSlideshow.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1137, 1729}}";
+			sepNavSelRange = "{1026, 9}";
+			sepNavVisRange = "{961, 1020}";
+		};
+	};
+	DD0498231275D12400087D45 /* SMSlideshow.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1237, 5915}}";
+			sepNavSelRange = "{9084, 0}";
+			sepNavVisRange = "{6704, 1423}";
+		};
+	};
+	DD04989F1275EEE600087D45 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DD0498A01275EEE600087D45 /* CATiledLayer.h */;
+		name = "CATiledLayer.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1652;
+		vrLoc = 0;
+	};
+	DD0498A01275EEE600087D45 /* CATiledLayer.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = CATiledLayer.h;
+		path = /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/CATiledLayer.h;
+		sourceTree = "<absolute>";
+	};
+	DD0498A21275EEE600087D45 /* CATransaction.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = CATransaction.h;
+		path = /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/CATransaction.h;
+		sourceTree = "<absolute>";
+	};
+	DD049950127615FE00087D45 /* SMSlideshowController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1062, 456}}";
+			sepNavSelRange = "{231, 37}";
+			sepNavVisRange = "{0, 693}";
+			sepNavWindowFrame = "{{15, 4}, {1225, 874}}";
+		};
+	};
+	DD049951127615FE00087D45 /* SMSlideshowController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1137, 5304}}";
+			sepNavSelRange = "{1461, 0}";
+			sepNavVisRange = "{379, 2445}";
+		};
+	};
+	DD145D2012B4696700FA8984 /* SMFEventManager.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1062, 715}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1404}";
+		};
+	};
+	DD145D2112B4696700FA8984 /* SMFFolderBrowser.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1062, 728}}";
+			sepNavSelRange = "{242, 87}";
+			sepNavVisRange = "{0, 1603}";
+		};
+	};
+	DD145D2212B4696700FA8984 /* SMFFolderDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1062, 602}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 220}";
+		};
+	};
+	DD145D2B12B4696700FA8984 /* SMFPhotoMethods.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1062, 689}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1144}";
+		};
+	};
+	DD145D3112B4696700FA8984 /* SMFQueryMenu.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1062, 453}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 566}";
+		};
+	};
+	DD145D3212B4696700FA8984 /* SMFramework.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1062, 602}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 667}";
+		};
+	};
+	DD145D5212B46AF700FA8984 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DD145D3112B4696700FA8984 /* SMFQueryMenu.h */;
+		name = "SMFQueryMenu.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 566;
+		vrLoc = 0;
+	};
+	DD145D6312B46F5B00FA8984 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DD049950127615FE00087D45 /* SMSlideshowController.h */;
+		name = "SMSlideshowController.h: 10";
+		rLen = 0;
+		rLoc = 183;
+		rType = 0;
+		vrLen = 481;
+		vrLoc = 0;
+	};
+	DD2C53B612D3F9FC00AB0BDB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DD0498231275D12400087D45 /* SMSlideshow.m */;
+		name = "SMSlideshow.m: 305";
+		rLen = 0;
+		rLoc = 9084;
+		rType = 0;
+		vrLen = 1423;
+		vrLoc = 6704;
+	};
+	DD2C53B712D3F9FC00AB0BDB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DD2C53B812D3F9FC00AB0BDB /* BRComboMenuItemLayer.h */;
+		name = "BRComboMenuItemLayer.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1823;
+		vrLoc = 0;
+	};
+	DD2C53B812D3F9FC00AB0BDB /* BRComboMenuItemLayer.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = BRComboMenuItemLayer.h;
+		path = /Users/tomcool/DVLP/ATV2/ATV2Includes/BackRow/BRComboMenuItemLayer.h;
+		sourceTree = "<absolute>";
+	};
+	DD2C53BF12D4E3E600AB0BDB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DD2C53C012D4E3E600AB0BDB /* BRComboMenuItemLayer.h */;
+		name = "BRComboMenuItemLayer.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1823;
+		vrLoc = 0;
+	};
+	DD2C53C012D4E3E600AB0BDB /* BRComboMenuItemLayer.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = BRComboMenuItemLayer.h;
+		path = /Users/tomcool/DVLP/ATV2/ATV2Includes/BackRow/BRComboMenuItemLayer.h;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1137, 832}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1770}";
+		};
+	};
+	DD2C53C112D4E3E600AB0BDB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DD2C53C212D4E3E600AB0BDB /* BRControl.h */;
+		name = "BRControl.h: 14";
+		rLen = 66;
+		rLoc = 321;
+		rType = 0;
+		vrLen = 3662;
+		vrLoc = 8327;
+	};
+	DD2C53C212D4E3E600AB0BDB /* BRControl.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = BRControl.h;
+		path = /Users/tomcool/DVLP/ATV2/ATV2Includes/BackRow/BRControl.h;
+		sourceTree = "<absolute>";
+	};
+	DD2C58E012D4FC4E00AB0BDB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DD2C53C012D4E3E600AB0BDB /* BRComboMenuItemLayer.h */;
+		name = "BRComboMenuItemLayer.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1770;
+		vrLoc = 0;
+	};
+	DD2C58E312D4FC4E00AB0BDB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DDB6EC3212CFC053009B4B9E /* BRControl.h */;
+		name = "BRControl.h: 14";
+		rLen = 66;
+		rLoc = 321;
+		rType = 0;
+		vrLen = 3729;
+		vrLoc = 8260;
+	};
+	DDA3010B1274BFE100B0AE9C /* MainMenuWeatherLocationController.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = MainMenuWeatherLocationController.h;
+		path = /Users/tomcool/DVLP/ATV2/MainMenuSlideshow/MainMenuWeatherLocationController.h;
+		sourceTree = "<absolute>";
+	};
+	DDA3012D1274C28000B0AE9C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DDEFB11A12725925003FBA2C /* SMWeatherController.h */;
+		name = "SMWeatherController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1057;
+		vrLoc = 0;
+	};
+	DDA301551274CBFE00B0AE9C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 875A8425126FFF6500ECADC2 /* build.sh */;
+		name = "build.sh: 16";
+		rLen = 0;
+		rLoc = 137;
+		rType = 0;
+		vrLen = 186;
+		vrLoc = 0;
+	};
+	DDA3027E1274E67100B0AE9C /* types.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = types.h;
+		path = /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/usr/include/machine/types.h;
+		sourceTree = "<absolute>";
+	};
+	DDA302851274E89C00B0AE9C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DDA3027E1274E67100B0AE9C /* types.h */;
+		name = "types.h: 12";
+		rLen = 0;
+		rLoc = 577;
+		rType = 0;
+		vrLen = 1726;
+		vrLoc = 0;
+	};
+	DDA3032B127502E500B0AE9C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DDA3032C127502E500B0AE9C /* SMWeather.m */;
+		name = "SMWeather.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1306;
+		vrLoc = 435;
+	};
+	DDA3032C127502E500B0AE9C /* SMWeather.m */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.objc;
+		name = SMWeather.m;
+		path = /Users/tomcool/DVLP/ATV2/MainMenuWeather/SMWeather/SMWeather.m;
+		sourceTree = "<absolute>";
+	};
+	DDA3032E127502E500B0AE9C /* SMWeatherControl.m */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.objc;
+		name = SMWeatherControl.m;
+		path = /Users/tomcool/DVLP/ATV2/MainMenuWeather/SMWeather/SMWeatherControl.m;
+		sourceTree = "<absolute>";
+	};
+	DDA303DE12751D6400B0AE9C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DDA3032E127502E500B0AE9C /* SMWeatherControl.m */;
+		name = "SMWeatherControl.m: 789";
+		rLen = 47;
+		rLoc = 30598;
+		rType = 0;
+		vrLen = 1267;
+		vrLoc = 30779;
+	};
+	DDA3041A1275269500B0AE9C /* SMYahooWeather.m */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.objc;
+		name = SMYahooWeather.m;
+		path = /Users/tomcool/DVLP/ATV2/MainMenuWeather/SMWeather/SMYahooWeather.m;
+		sourceTree = "<absolute>";
+	};
+	DDA30427127529B000B0AE9C /* MainMenuWeatherLocationController.m */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.objc;
+		path = MainMenuWeatherLocationController.m;
+		sourceTree = "<group>";
+	};
+	DDA3044312752D7B00B0AE9C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DDA3041A1275269500B0AE9C /* SMYahooWeather.m */;
+		name = "SMYahooWeather.m: 18";
+		rLen = 82;
+		rLoc = 583;
+		rType = 0;
+		vrLen = 1608;
+		vrLoc = 24;
+	};
+	DDA3044812752D7B00B0AE9C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DDEFB11B12725925003FBA2C /* SMWeatherController.m */;
+		name = "SMWeatherController.m: 151";
+		rLen = 0;
+		rLoc = 4682;
+		rType = 0;
+		vrLen = 1576;
+		vrLoc = 5308;
+	};
+	DDA3045912752E1100B0AE9C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DDEFB11812725905003FBA2C /* SMWeatherBaseController.m */;
+		name = "SMWeatherBaseController.m: 13";
+		rLen = 0;
+		rLoc = 246;
+		rType = 0;
+		vrLen = 1453;
+		vrLoc = 5361;
+	};
+	DDA304DC12754A2D00B0AE9C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DDA30427127529B000B0AE9C /* MainMenuWeatherLocationController.m */;
+		name = "MainMenuWeatherLocationController.m: 130";
+		rLen = 35;
+		rLoc = 5789;
+		rType = 0;
+		vrLen = 1132;
+		vrLoc = 4940;
+	};
+	DDA304DD12754A2D00B0AE9C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DDA3010B1274BFE100B0AE9C /* MainMenuWeatherLocationController.h */;
+		name = "MainMenuWeatherLocationController.h: 21";
+		rLen = 0;
+		rLoc = 533;
+		rType = 0;
+		vrLen = 541;
+		vrLoc = 0;
+	};
+	DDABC5441278EEF2001F026B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DDABC5451278EEF2001F026B /* main.mm */;
+		name = "main.mm: 21";
+		rLen = 8;
+		rLoc = 590;
+		rType = 0;
+		vrLen = 1075;
+		vrLoc = 246;
+	};
+	DDABC5451278EEF2001F026B /* main.mm */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.cpp.objcpp;
+		name = main.mm;
+		path = /Users/tomcool/DVLP/ATV2/screencap/main.mm;
+		sourceTree = "<absolute>";
+	};
+	DDABC5471278EEF2001F026B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DDABC5481278EEF2001F026B /* ATVScreenSaverPluginProtocol-Protocol.h */;
+		name = "ATVScreenSaverPluginProtocol-Protocol.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 246;
+		vrLoc = 0;
+	};
+	DDABC5481278EEF2001F026B /* ATVScreenSaverPluginProtocol-Protocol.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = "ATVScreenSaverPluginProtocol-Protocol.h";
+		path = "/Volumes/HD/Downloads/PrivateFrameworks 3/AppleTV.framework/PrivateHeaders/ATVScreenSaverPluginProtocol-Protocol.h";
+		sourceTree = "<absolute>";
+	};
+	DDABC5491278EEF2001F026B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DDABC54A1278EEF2001F026B /* ATVScreenSaverManager.h */;
+		name = "ATVScreenSaverManager.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 534;
+		vrLoc = 0;
+	};
+	DDABC54A1278EEF2001F026B /* ATVScreenSaverManager.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = ATVScreenSaverManager.h;
+		path = "/Volumes/HD/Downloads/PrivateFrameworks 3/AppleTV.framework/PrivateHeaders/ATVScreenSaverManager.h";
+		sourceTree = "<absolute>";
+	};
+	DDABC54B1278EEF2001F026B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DDABC54C1278EEF2001F026B /* ATVScreenSaverControl.h */;
+		name = "ATVScreenSaverControl.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 643;
+		vrLoc = 0;
+	};
+	DDABC54C1278EEF2001F026B /* ATVScreenSaverControl.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = ATVScreenSaverControl.h;
+		path = "/Volumes/HD/Downloads/PrivateFrameworks 3/AppleTV.framework/PrivateHeaders/ATVScreenSaverControl.h";
+		sourceTree = "<absolute>";
+	};
+	DDB6EBA512CE34E5009B4B9E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DD0498221275D12400087D45 /* SMSlideshow.h */;
+		name = "SMSlideshow.h: 40";
+		rLen = 9;
+		rLoc = 1026;
+		rType = 0;
+		vrLen = 1020;
+		vrLoc = 961;
+	};
+	DDB6EBF612CF373A009B4B9E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DDB6EBF712CF373A009B4B9E /* CAEAGLLayer.h */;
+		name = "CAEAGLLayer.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 604;
+		vrLoc = 0;
+	};
+	DDB6EBF712CF373A009B4B9E /* CAEAGLLayer.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = CAEAGLLayer.h;
+		path = /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/CAEAGLLayer.h;
+		sourceTree = "<absolute>";
+	};
+	DDB6EBF812CF373A009B4B9E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DDB6EBF912CF373A009B4B9E /* CoreAnimation.h */;
+		name = "CoreAnimation.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 868;
+		vrLoc = 0;
+	};
+	DDB6EBF912CF373A009B4B9E /* CoreAnimation.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = CoreAnimation.h;
+		path = /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/CoreAnimation.h;
+		sourceTree = "<absolute>";
+	};
+	DDB6EBFA12CF373A009B4B9E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DDB6EBFB12CF373A009B4B9E /* CAMediaTiming.h */;
+		name = "CAMediaTiming.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1331;
+		vrLoc = 0;
+	};
+	DDB6EBFB12CF373A009B4B9E /* CAMediaTiming.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = CAMediaTiming.h;
+		path = /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/CAMediaTiming.h;
+		sourceTree = "<absolute>";
+	};
+	DDB6EBFC12CF373A009B4B9E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DDB6EBFD12CF373A009B4B9E /* CAMediaTimingFunction.h */;
+		name = "CAMediaTimingFunction.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1405;
+		vrLoc = 0;
+	};
+	DDB6EBFD12CF373A009B4B9E /* CAMediaTimingFunction.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = CAMediaTimingFunction.h;
+		path = /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/CAMediaTimingFunction.h;
+		sourceTree = "<absolute>";
+	};
+	DDB6EBFE12CF373A009B4B9E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DDB6EBFF12CF373A009B4B9E /* CAAnimation.h */;
+		name = "CAAnimation.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1445;
+		vrLoc = 2732;
+	};
+	DDB6EBFF12CF373A009B4B9E /* CAAnimation.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = CAAnimation.h;
+		path = /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/CAAnimation.h;
+		sourceTree = "<absolute>";
+	};
+	DDB6EC0012CF373A009B4B9E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DD0498A21275EEE600087D45 /* CATransaction.h */;
+		name = "CATransaction.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1477;
+		vrLoc = 305;
+	};
+	DDB6EC3112CFC053009B4B9E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DDB6EC3212CFC053009B4B9E /* BRControl.h */;
+		name = "BRControl.h: 14";
+		rLen = 66;
+		rLoc = 321;
+		rType = 0;
+		vrLen = 3606;
+		vrLoc = 8383;
+	};
+	DDB6EC3212CFC053009B4B9E /* BRControl.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = BRControl.h;
+		path = /Users/tomcool/DVLP/ATV2/ATV2Includes/BackRow/BRControl.h;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1166, 2665}}";
+			sepNavSelRange = "{321, 66}";
+			sepNavVisRange = "{8260, 3729}";
+		};
+	};
+	DDDC85391274087B00192ADD /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DDEFB13F12725EC0003FBA2C /* nitoWeatherController.m */;
+		name = "nitoWeatherController.m: 313";
+		rLen = 0;
+		rLoc = 6825;
+		rType = 0;
+		vrLen = 715;
+		vrLoc = 0;
+	};
+	DDDC853B1274087B00192ADD /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DDEFB11712725905003FBA2C /* SMWeatherBaseController.h */;
+		name = "SMWeatherBaseController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 408;
+		vrLoc = 0;
+	};
+	DDE3FACF127BCDB5006A274A /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D5B49B7048680CD000E48DA /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/tomcool/DVLP/ATV2/MainMenuSlideshow/Info.plist;
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	DDE3FAD0127BCDB5006A274A /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = DDA3014F1274C5FA00B0AE9C /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/tomcool/DVLP/ATV2/MainMenuSlideshow/Resources/Info.plist;
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	DDE3FAD1127BCDB5006A274A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 875A8427126FFF6D00ECADC2 /* Makefile */;
+		name = "Makefile: 8";
+		rLen = 0;
+		rLoc = 251;
+		rType = 0;
+		vrLen = 719;
+		vrLoc = 0;
+	};
+	DDE498251271288200BAC606 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	DDE498261271288200BAC606 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	DDEFB11712725905003FBA2C /* SMWeatherBaseController.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = SMWeatherBaseController.h;
+		path = /Users/tomcool/DVLP/ATV2/MainMenuSlideshow/SMWeatherBaseController.h;
+		sourceTree = "<absolute>";
+	};
+	DDEFB11812725905003FBA2C /* SMWeatherBaseController.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = SMWeatherBaseController.m;
+		path = /Users/tomcool/DVLP/ATV2/MainMenuSlideshow/SMWeatherBaseController.m;
+		sourceTree = "<absolute>";
+	};
+	DDEFB11A12725925003FBA2C /* SMWeatherController.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = SMWeatherController.h;
+		path = /Users/tomcool/DVLP/ATV2/MainMenuSlideshow/SMWeatherController.h;
+		sourceTree = "<absolute>";
+	};
+	DDEFB11B12725925003FBA2C /* SMWeatherController.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = SMWeatherController.m;
+		path = /Users/tomcool/DVLP/ATV2/MainMenuSlideshow/SMWeatherController.m;
+		sourceTree = "<absolute>";
+	};
+	DDEFB11F12725EC0003FBA2C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DDEFB12012725EC0003FBA2C /* SMWeatherBaseController.h */;
+		name = "SMWeatherBaseController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 408;
+		vrLoc = 0;
+	};
+	DDEFB12012725EC0003FBA2C /* SMWeatherBaseController.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = SMWeatherBaseController.h;
+		path = /Users/tomcool/DVLP/softwaremenu/trunk/SoftwareMenu/mext/SMWeather/SMWeatherBaseController.h;
+		sourceTree = "<absolute>";
+	};
+	DDEFB12112725EC0003FBA2C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DDEFB12212725EC0003FBA2C /* SMWeatherController.h */;
+		name = "SMWeatherController.h: 33";
+		rLen = 0;
+		rLoc = 880;
+		rType = 0;
+		vrLen = 1057;
+		vrLoc = 0;
+	};
+	DDEFB12212725EC0003FBA2C /* SMWeatherController.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = SMWeatherController.h;
+		path = /Users/tomcool/DVLP/softwaremenu/trunk/SoftwareMenu/mext/SMWeather/SMWeatherController.h;
+		sourceTree = "<absolute>";
+	};
+	DDEFB12512725EC0003FBA2C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DDEFB12612725EC0003FBA2C /* Prefix.pch */;
+		name = "Prefix.pch: 6";
+		rLen = 817;
+		rLoc = 153;
+		rType = 0;
+		vrLen = 977;
+		vrLoc = 0;
+	};
+	DDEFB12612725EC0003FBA2C /* Prefix.pch */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = Prefix.pch;
+		path = /Users/tomcool/DVLP/ATV2/MainMenuWeather/theos/Prefix.pch;
+		sourceTree = "<absolute>";
+	};
+	DDEFB12712725EC0003FBA2C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32DBCF630370AF2F00C91783 /* atvTwo_Prefix.pch */;
+		name = "atvTwo_Prefix.pch: 32";
+		rLen = 0;
+		rLoc = 1033;
+		rType = 0;
+		vrLen = 973;
+		vrLoc = 0;
+	};
+	DDEFB12812725EC0003FBA2C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DDEFB12912725EC0003FBA2C /* ntvWeatherManager.m */;
+		name = "ntvWeatherManager.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1832;
+		vrLoc = 0;
+	};
+	DDEFB12912725EC0003FBA2C /* ntvWeatherManager.m */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.objc;
+		name = ntvWeatherManager.m;
+		path = /Users/tomcool/Downloads/nitoTV2/Classes/ntvWeatherManager.m;
+		sourceTree = "<absolute>";
+	};
+	DDEFB13212725EC0003FBA2C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DDEFB13312725EC0003FBA2C /* nitoWeather.m */;
+		name = "nitoWeather.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 966;
+		vrLoc = 0;
+	};
+	DDEFB13312725EC0003FBA2C /* nitoWeather.m */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.objc;
+		name = nitoWeather.m;
+		path = /Users/tomcool/Downloads/weather/nitoWeather.m;
+		sourceTree = "<absolute>";
+	};
+	DDEFB13612725EC0003FBA2C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DDEFB13712725EC0003FBA2C /* nitoWeatherController.h */;
+		name = "nitoWeatherController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1090;
+		vrLoc = 0;
+	};
+	DDEFB13712725EC0003FBA2C /* nitoWeatherController.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = nitoWeatherController.h;
+		path = /Users/tomcool/Downloads/nitoTV2/Classes/nitoWeatherController.h;
+		sourceTree = "<absolute>";
+	};
+	DDEFB13812725EC0003FBA2C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DDEFB13912725EC0003FBA2C /* nitoWeatherController.m */;
+		name = "nitoWeatherController.m: 331";
+		rLen = 0;
+		rLoc = 7141;
+		rType = 0;
+		vrLen = 1275;
+		vrLoc = 4144;
+	};
+	DDEFB13912725EC0003FBA2C /* nitoWeatherController.m */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.objc;
+		name = nitoWeatherController.m;
+		path = /Users/tomcool/Downloads/nitoTV2/Classes/nitoWeatherController.m;
+		sourceTree = "<absolute>";
+	};
+	DDEFB13A12725EC0003FBA2C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DDEFB13B12725EC0003FBA2C /* nitoWeatherController.h */;
+		name = "nitoWeatherController.h: 1";
+		rLen = 124;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1089;
+		vrLoc = 0;
+	};
+	DDEFB13B12725EC0003FBA2C /* nitoWeatherController.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = nitoWeatherController.h;
+		path = /Users/tomcool/Downloads/weather/nitoWeatherController.h;
+		sourceTree = "<absolute>";
+	};
+	DDEFB13F12725EC0003FBA2C /* nitoWeatherController.m */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.objc;
+		name = nitoWeatherController.m;
+		path = /Users/tomcool/Downloads/weather/nitoWeatherController.m;
+		sourceTree = "<absolute>";
+	};
+	DDF8E91D12C919C0005EC3C1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DD049951127615FE00087D45 /* SMSlideshowController.m */;
+		name = "SMSlideshowController.m: 33";
+		rLen = 0;
+		rLoc = 1461;
+		rType = 0;
+		vrLen = 2445;
+		vrLoc = 379;
+	};
+}

@@ -1,0 +1,9 @@
+Package: org.tomcool.mainmenuslideshow
+Name: MainMenuSlideshow
+Depends: org.tomcool.atvsettingsloader, org.tomcool.smframework(>=0.5.6), org.tomcool.mloader
+Version: 0.1.2
+Architecture: iphoneos-arm
+Description: Creates a slideshow in the background of the main menu
+Maintainer: Thomas Cool <thomas.cool@me.com>
+Author: Thomas Cool <thomas.cool@me.com>
+Section: Main_Menu_Extensions
