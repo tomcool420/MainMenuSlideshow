@@ -293,6 +293,7 @@ NSString * const kSMSlideshowChangedFolderNotification          = @"kSMSlideshow
         [c setCDelegate:self];
         [c setCDatasource:self];
         [c addToController:self];
+        [c release];
         /*SlideshowTransitionStyle newStyle= (([SMSlideshowController transitionStyle]+1) %NumberOfSlideshowViewTransitionStyles);
         [SMSlideshowController setTransitionStyle:newStyle];*/
     }
