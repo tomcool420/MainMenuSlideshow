@@ -31,6 +31,7 @@ typedef enum {
     SlideshowViewCharminUltraTransitionStyle,
     SlideshowViewZoomyInTransitionStyle,
     SlideshowViewZoomyOutTransitionStyle,
+    SlideshowCAFilterPageCurlTransitionStyle,
     NumberOfSlideshowViewTransitionStyles
     
 

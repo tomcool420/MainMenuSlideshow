@@ -9,12 +9,14 @@
 #import <SMFramework/SMFramework.h>
 #import "SMSlideshow.h"
 #import "SMSlideshowController.h"
+#import <QuartzCore/QuartzCore2.h>
 #define DEFAULT_IMAGES_PATH		@"/System/Library/PrivateFrameworks/AppleTV.framework/DefaultFlowerPhotos/"
 //#define DEFAULT_IMAGES_PATH @"/var/mobile/Library/Preferences/nature"
 //#define DEFAULT_IMAGES_PATH @"/nature"
 #define plitFile [NSHomeDirectory() stringByAppendingPathComponent:@"Library/Preferences/org.tomcool.weather.plist"]
 #define myDomain                (CFStringRef)@"com.apple.frontrow.appliance.SoftwareMenu.Slideshow"
 #define SoftwareMenuDomain      (CFStringRef)@"com.apple.frontrow.appliance.SoftwareMenu"
+//#define DEBUG
 @interface ATVSettingsFacade
 @end
 @class CATransition;
@@ -53,6 +55,7 @@ static SMSlideshowControl *_control = nil;
         [_control setAutoresizingMask:1];
         [_control retain];
         [_control retain];
+        //_control.opacity=0.4f;
         [_control setTargetOpacity:0.4f];
         [_control setTransitionStyle:[SMSlideshowController transitionStyle]];
         [_control setFolder:[SMSlideshowController imageFolder]];
@@ -60,11 +63,11 @@ static SMSlideshowControl *_control = nil;
     }
 #ifdef DEBUG
     [_control setTargetOpacity:0.4f];
-    [_control setTransitionDuration:2];
-    [_control setTransitionStyle:SlideshowViewRevealTransitionStyle];
-    [_control setSlideshowInterval:(NSTimeInterval)30];
-    [_control setRandomOrder:NO];
-    [_control setAutoRotateEffect:YES];
+    [_control setTransitionDuration:3];
+    [_control setTransitionStyle:SlideshowCAFilterPageCurlTransitionStyle];
+    [_control setSlideshowInterval:(NSTimeInterval)20];
+//    [_control setRandomOrder:NO];
+//    [_control setAutoRotateEffect:YES];
 #endif
 
     //_control.slideshowInterval=(NSTimeInterval)10;
@@ -120,6 +123,7 @@ static SMSlideshowControl *_control = nil;
 {
     self=[super init];
     self.targetOpacity=0.3f;
+    [self advanceSlideshow:nil force:YES];
     self.useTimer=YES;
     self.crop=YES;
     self.activate=YES;
@@ -143,6 +147,12 @@ static SMSlideshowControl *_control = nil;
                                              selector:@selector(vncDisconnected:) 
                                                  name:@"BHVNCServerClientDisconnected" 
                                                object:nil];
+    BRImageControl *control = [[BRImageControl alloc] init];
+    [control setImage:[[SMFThemeInfo sharedTheme]blackImage]];
+    CGRect frame = [BRWindow interfaceFrame];
+    [control setFrame:frame];
+    [control setOpacity:0.5];
+    [self addControl:control];
     return self;
 }
 - (void)vncConnected:(NSNotification *)note
@@ -187,6 +197,8 @@ static SMSlideshowControl *_control = nil;
 {
     self.slideshowInterval=[SMSlideshowController imageDuration] ;
     [super controlWasActivated];
+    
+
 }
 -(void)advanceSlideshow:(NSTimer *)timer force:(BOOL)force
 {
@@ -263,6 +275,7 @@ static SMSlideshowControl *_control = nil;
 
 -(void)setFolder:(NSString *)folder
 {
+//    NSLog(@"setFolder: %@",folder);
     BOOL isDir;
     if ([[NSFileManager defaultManager] fileExistsAtPath:folder isDirectory:&isDir]&&isDir) 
     {
@@ -273,6 +286,7 @@ static SMSlideshowControl *_control = nil;
 
 -(void)setFiles:(NSArray *)f
 {
+//    NSLog(@"setFiles: %@",f);
     if (files!=nil) {
         [files release];
         files=nil;
@@ -307,6 +321,11 @@ static SMSlideshowControl *_control = nil;
     {
         [self setTransitionStyle:((transitionStyle +1) %NumberOfSlideshowViewTransitionStyles)];
     }
+    else {
+        [self setTransitionStyle:[SMSlideshowController transitionStyle]];
+
+    }
+
 //    if (self.activate==NO) {
 //        if (curImage!=nil) {
 //            if (oldImage!=nil) {
@@ -352,14 +371,14 @@ static SMSlideshowControl *_control = nil;
         else {
             [curImage setFrame:[BRWindow interfaceFrame]];
         }
-            [curImage setOpacity:targetOpacity];
+        //    [curImage setOpacity:targetOpacity];
 
         
         if (oldImage!=nil) {
             [self insertControl:curImage above:oldImage];
         }
         else {
-            [self addControl:curImage];
+            [self insertControl:curImage atIndex:0];
         }
        if (oldImage!=nil) {
 
@@ -372,6 +391,7 @@ static SMSlideshowControl *_control = nil;
     }
     [self setNeedsLayout];
     [self setNeedsDisplay];
+    NSLog(@"controls: %@ %f",[self controls],[[[self controls] lastObject] opacity]);
 
 }
 
@@ -424,13 +444,26 @@ static SMSlideshowControl *_control = nil;
         case SlideshowViewZoomyOutTransitionStyle:
             transitionType = @"zoomyOut";
             break;
+        case SlideshowCAFilterPageCurlTransitionStyle:
+            transitionType = nil;
+            break;
         default:
             transitionType = @"reveal";
             break;
     }
-    
     CATransition *transition = [CATransition animation];
-    [transition setType:transitionType];
+    
+    if (transitionType==nil) {
+        CAFilter* filter=nil;
+        if (transitionStyle==SlideshowCAFilterPageCurlTransitionStyle) {
+            filter=[CAFilter filterWithName:kCAFilterPageCurl];
+        }
+        [filter setDefaults];
+        [transition setFilter:filter];
+    }
+    else {
+        [transition setType:transitionType];
+    }
     [transition setDuration:self.transitionDuration];
     [self setActions:[NSDictionary dictionaryWithObject:transition forKey:@"sublayers"]];
 }

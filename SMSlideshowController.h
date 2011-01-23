@@ -9,7 +9,7 @@
 #import <SMFramework/SMFramework.h>
 #import "SMSlideshow.h"
 extern NSString * const kSMSlideshowChangedFolderNotification;
-@interface SMSlideshowController : SMFMediaMenuController<SMFFolderBrowserDelegate> {
+@interface SMSlideshowController : SMFMediaMenuController<SMFFolderBrowserDelegate,SMFListDropShadowDatasource,SMFListDropShadowDelegate> {
 
 }
 +(float)transitionDuration;

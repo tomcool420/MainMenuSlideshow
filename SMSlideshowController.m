@@ -237,6 +237,9 @@ NSString * const kSMSlideshowChangedFolderNotification          = @"kSMSlideshow
         case SlideshowViewZoomyOutTransitionStyle:
             transitionType = @"Zoomy Out";
             break;
+        case SlideshowCAFilterPageCurlTransitionStyle:
+            transitionType = @"Page Curl";
+            break;
         default:
             transitionType = @"Fade";
             break;
@@ -286,8 +289,12 @@ NSString * const kSMSlideshowChangedFolderNotification          = @"kSMSlideshow
     
     else if(rowT==transitionEffect)
     {
-        SlideshowTransitionStyle newStyle= (([SMSlideshowController transitionStyle]+1) %NumberOfSlideshowViewTransitionStyles);
-        [SMSlideshowController setTransitionStyle:newStyle];
+        SMFListDropShadowControl *c = [[SMFListDropShadowControl alloc]init];
+        [c setCDelegate:self];
+        [c setCDatasource:self];
+        [c addToController:self];
+        /*SlideshowTransitionStyle newStyle= (([SMSlideshowController transitionStyle]+1) %NumberOfSlideshowViewTransitionStyles);
+        [SMSlideshowController setTransitionStyle:newStyle];*/
     }
     else if(rowT==randomize)
     {
@@ -387,6 +394,32 @@ NSString * const kSMSlideshowChangedFolderNotification          = @"kSMSlideshow
     [[self list] reload];
     [super wasExhumed];
 }
+#pragma mark Popup delegates
+- (float)popupHeightForRow:(long)row				{ return 0.0f;}
+- (BOOL)popupRowSelectable:(long)row				{ return YES;}
+- (long)popupItemCount							{ return (long)NumberOfSlideshowViewTransitionStyles;}
+- (id)popupItemForRow:(long)row					{ 
+    SMFMenuItem *it = [SMFMenuItem menuItem];
+    [it setTitle:[self stringForTransition:row]];
+    return it;
+}
+- (id)popupTitleForRow:(long)row					
+{ 
+    if (row>=[self itemCount])
+        return nil;
+    id it = [self itemForRow:row];
+    if ([it isKindOfClass:[BRComboMenuItemLayer class]]) 
+        return [(BRComboMenuItemLayer*) it title];
+    return [it text];
+}
+- (long)popupDefaultIndex						{ return [SMSlideshowController transitionStyle];}
+- (void)popup:(id)p itemSelected:(long)row  
+{
+    [p removeFromParent];
+    [SMSlideshowController setTransitionStyle:row];
+    [[self list] reload];
+}
+
 #pragma mark delegate methods
 -(BOOL)hasActionForFile:(NSString *)path
 {
